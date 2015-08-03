@@ -1,4 +1,4 @@
-FROM codefresh/cf-base-ide:v0.0.19
+FROM codefresh/cf-base-ide:develop
 
 #lifecycle "install" step
   #contributed from service "git"
