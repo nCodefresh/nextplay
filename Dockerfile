@@ -1,5 +1,5 @@
 FROM codefresh/cf-base-ide:develop
-
+#====
 #lifecycle "install" step
   #contributed from service "git"
   RUN sudo apt-get -q -y install git
