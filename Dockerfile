@@ -3,7 +3,7 @@ FROM codefresh/cf-base-ide:develop
 #lifecycle "install" step
   #contributed from service "git"
   RUN sudo apt-get -q -y install git
-  RUN sudo apt-get -q -y install imagemagick
+  #RUN sudo apt-get -q -y install imagemagick
 
   RUN echo verchol_nextplay_88639a30cf22af5679e9562bf1a29aced4f4730c
 
